@@ -4,6 +4,7 @@
   "description": "\"A muti-vendor e-commerce store\"",
   "main": "app.js",
   "scripts": {
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,5 +12,9 @@
     "url": "@kiptooBiwot"
   },
   "author": "@kiptoobiwot",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2"
+  }
 }
