@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(morgan('dev'))
 app.use(cors())
 
-app.use('/api/v1/users', userRoutes)
+app.use('/api/v1/user', userRoutes)
 
 app.use(async (req, res, next) => {
   next(createError.NotFound())
